@@ -1,6 +1,6 @@
 <template>
 	<div>
-        我的位置是在{{$route.query.index}}
+        我的位置是在{{$route.params.index}}
         <br>
         我的内容为{{res}}
     </div>
